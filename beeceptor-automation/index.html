@@ -1,0 +1,313 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0"><meta name="theme-color" content="#2c3e50"><meta name="csrf-token"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:creator" content="@beeceptor"><meta name="description" content="Create AI-powered mock servers in seconds. Generate realistic responses from prompts or real traffic for REST, SOAP, GraphQL, and gRPC. No code, no dependencies. Free "><meta name="keywords" content="ai api, mock apis, wiremock, free online server, http mock, rest api, mockapi, dummy api, fake api, beceptor, beecepter"><meta property="og:url" content="https://beeceptor.com/"><meta property="og:title" content="Mock APIs - Free REST &amp; SOAP APIs for Devs &amp; QA"><meta property="og:description" content="Create AI-powered mock servers in seconds. Generate realistic responses from prompts or real traffic for REST, SOAP, GraphQL, and gRPC. No code, no dependencies. Free "><meta property="og:image" content="https://cdn.beeceptor.com/assets/images/beeceptor-demo-3-small.gif"><meta property="og:type" content="website"><meta property="fb:app_id" content="2010197255934180"><title>Mock APIs - Free REST &amp; SOAP APIs for Devs &amp; QA</title><link rel="canonical" href="https://beeceptor.com/"><link rel="shortcut icon" href="https://cdn.beeceptor.com/assets/images/logo-beeceptor.png"><link rel="stylesheet" href="https://cdn.beeceptor.com/assets/css/beeceptor-theme.css?v=f385191"><link rel="stylesheet" href="https://cdn.beeceptor.com/assets/css/vendor.css?v=f385191"><script>window.loggedIn = false;
+</script><script>var BEE_DOMAIN = location.host.replace(/.*?([^.]+\.[^.]+)$/, "$1");
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_un7qmq8S5Ouadlt1f9wSvOnovQcMOhxDaA8Y2RrWdPb',
+  {
+    api_host: `https://drishti.${BEE_DOMAIN}`,
+    ui_host: 'https://us.i.posthog.com',  // or 'https://eu.i.posthog.com' if your PostHog is hosted in Europe
+    capture_pageleave: false,             // Let's save some events.
+    autocapture: false,                   // Disables automatic event capturing
+    capture_pageview: true,               // Ensures pageviews are tracked
+    person_profiles: "always"
+  });</script><script type="module">import createGlobe from 'https://cdn.beeceptor.com/assets/js/cobe.min.js?v=f385191';
+window.createGlobe = createGlobe;
+</script></head><body class="d-flex flex-column min-vh-100"><style>@media (min-width: 992px) {
+  .navbar-nav .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+</style><nav class="navbar navbar-expand-lg fixed-top navbar-glass"><div class="container"><!-- Navbar Brand Section--><div class="d-flex align-items-start"><a class="navbar-brand mx-1" href="https://beeceptor.com/"><img src="https://cdn.beeceptor.com/assets/images/logos/beeceptor-full-large.png" title="Beeceptor" alt="Beeceptor" style="height: 30px;" fetchpriority="high"></a></div><!-- Navbar Toggler--><button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><!-- Main Navbar Content--><div class="collapse navbar-collapse" id="navbarMain"><!-- Center Navigation: using mx-auto to push it to the center--><ul class="navbar-nav mb-2 mb-lg-0"><!-- Skip The Waiting Dropdown--><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Skip the Waiting</a><ul class="dropdown-menu shadow-sm border shadow-lg"><li><a class="dropdown-item" href="https://beeceptor.com/ai/"><span class="d-block fw-bold">AI for API Virtualization</span><span class="small text-muted d-block">Accelerate API mocking, testing,<br>and governance with AI-assisted workflows.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/service-virtualization/"><span class="d-block fw-bold">Service Virtualization</span><span class="small text-muted d-block">Discover why Service Virtualization<br> is a must-have for software teams!</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/why-use-mock-servers/"><span class="d-block fw-bold">Development Bottlenecks</span><span class="small text-muted d-block">Explore the benefits and use cases<br>of service virtualization for software development.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/api-virtualization/"><span class="d-block fw-bold">Testing Limitations</span><span class="small text-muted d-block">Understand service virtualization and<br>learn how to build an effective test strategy.</span></a></li></ul></li><!-- Mock Servers Dropdown--><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mock Servers</a><ul class="dropdown-menu shadow-sm border shadow-lg"><li><a class="dropdown-item" href="https://beeceptor.com/openapi-mock-server/"><span class="d-block fw-bold">OpenAPI Mock Server</span><span class="small text-muted d-block">Upload your OAS file and instantly get AI powered<br>mock service with test data backed in.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/soap-mock-server/"><span class="d-block fw-bold">SOAP Mock Server</span><span class="small text-muted d-block">Upload your WSDL specs and instantly<br>get integration ready mock server with AI data.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/graphql-mock-server/"><span class="d-block fw-bold">GraphQL Mock Server</span><span class="small text-muted d-block">Upload GraphQL SDL schema (.gql or .graphql) and<br>instantly get a mock server with realistic responses.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/grpc-mock-server/"><span class="d-block fw-bold">gRPC Mock Server</span><span class="small text-muted d-block">Spin up a gRPC mock server in seconds using proto spec.</span></a></li><li class="dropdown-divider"></li><li><a class="dropdown-item" href="https://beeceptor.com/crud-api/"><span class="d-block fw-bold">CRUD Rest APIs</span><span class="small text-muted d-block">Instantly create database-backed JSON APIs without setting up backend servers.<br>Stateful. Flexible schema. Filter/Sort supported.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/mock-api/"><span class="d-block fw-bold">JSON/XML Server</span><span class="small text-muted d-block">Paste your JSON response to start building<br>a mock server instantly.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/virtual-sandbox/explore/"><span class="d-block fw-bold">Ready-to-use Mock Servers</span><span class="small text-muted d-block">Get free sample APIs and mock services for<br>integrating and testing your applications.</span></a></li></ul></li><!-- Tools Dropdown--><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tools</a><ul class="dropdown-menu shadow-sm border shadow-lg"><li><a class="dropdown-item" href="https://beeceptor.com/resources/2fa-code-generator/"><span class="d-block fw-bold">2FA Code Generator</span><span class="small text-muted d-block">Automate your Two-Factor Authentication screens<br>effortlessly and increase test coverage.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/resources/http-echo/"><span class="d-block fw-bold">HTTP Echo Server</span><span class="small text-muted d-block">Review the request data echoed back in a <br>JSON response to debug HTTP invocations.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/local-tunnel/"><span class="d-block fw-bold">Local Tunnel</span><span class="small text-muted d-block">Expose your local services to <br>the Internet with a public endpoint.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/webhook-integration/"><span class="d-block fw-bold">Webhook Testing</span><span class="small text-muted d-block">Get a free HTTPS endpoint to use as a webhook receiver<br>and inspect payloads in real-time.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/http-debugger/"><span class="d-block fw-bold">HTTP Traffic Monitoring</span><span class="small text-muted d-block">Wrap your web service's domain with Beeceptor to<br>inspect and monitor HTTP traffic.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/resources/test-data-generator/"><span class="d-block fw-bold">Generate Test Data</span><span class="small text-muted d-block">Create realistic test data using 300+ generators.<br>Output formats include JSON, CSV, and SQL.</span></a></li></ul></li></ul><!-- Right Side Navigation--><ul class="navbar-nav ms-auto"><li class="nav-item me-2"><a class="nav-link" href="https://beeceptor.com/use-cases/">Features</a></li><!-- Docs Dropdown--><li class="nav-item dropdown me-2"><a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Docs</a><ul class="dropdown-menu dropdown-menu-end shadow-sm border shadow-lg"><li><a class="dropdown-item" href="https://beeceptor.com/docs/beeceptor-features/"><span class="d-block fw-bold">Technical Guides & Docs</span><span class="d-block small text-muted">Explore features, examples, <br>and practical use cases.</span></a></li><li><a class="dropdown-item" href="https://beeceptor.com/docs/api/beeceptor-api/"><span class="d-block fw-bold">Developer API</span><span class="small text-muted d-block">Programmatically control Beeceptor<br>from your CI/CD and test automation.</span></a></li></ul></li><li class="nav-item me-3"><a class="nav-link" href="https://beeceptor.com/pricing/">Pricing</a></li><!-- Guest--><li class="nav-item ms-3 nav-login-btn"><a class="nav-link" href="https://app.beeceptor.com/login">Sign In / Sign Up</a></li><li class="nav-item dropdown user-info-container d-none myaccount-dropdown"></li><!-- This will be populated by JavaScript for static pages--></ul></div></div></nav><script src="https://cdn.beeceptor.com/assets/js/user.min.js"></script><main class="flex-grow-1"><!-- Hero Section--><section class="hero-section"><div class="container"><div class="row align-items-center justify-content-between gy-3"><!-- Left Column: Text & CTA--><div class="col-12 col-lg-6 col-md-12 text-center text-lg-start"><!-- Announcement Badge--><a class="d-inline-flex align-items-center border px-3 py-1 mb-4 text-none bg-white shadow-sm text-decoration-none rounded-pill" href="/openapi-mock-server/?ref=new-launch"><img class="me-1" src="https://cdn.beeceptor.com/assets/images/icons/open-api.svg" width="18" height="18" title="Beeceptor serving an OpenAPI Specification" data-bs-toggle="tooltip" style="vertical-align: text-top;" alt="OpenAPI"><span class="small"><b>OpenAPI Spec</b> to Live Mock Server</span><i class="bi bi-arrow-right ms-2 text-muted small"></i></a><!-- Main Heading--><h1 class="mb-4 mt-1 fw-bold text-balance" style="font-size: 3.5rem; line+height: 0.94; letter-spacing: -0.02em;">AI-Powered Mock Servers in Seconds</h1><!-- Subheading--><h3 class="mb-3 mx-auto mx-lg-0 text-balance">Build REST, GraphQL, SOAP, and gRPC servers in a few seconds.</h3><p class="fs-5 text-muted text-balance">Create realistic mock behavior using AI, no-code, APIs, or real-traffic. Eliminate guesswork and fast-track integrations and demos without backend dependencies.</p><!--p No Code. No Downloads. No Delays.--><!--h5.text-balance.text-muted Mock Server + Local Tunnel + HTTP Proxy--><!-- CTA Actions--><div class="d-flex flex-column flex-sm-row gap-3 mb-5 justify-content-center justify-content-lg-start"><!--a.btn.btn-primary.btn-lg.px-4(href="#create-endpoint")i.bi.bi-lightning-charge.me-2
+| Start for free--><a class="btn btn-outline-primary btn-lg px-4 mx-5 mx-lg-0" href="#" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="bi bi-play me-2"></i>Watch to get started</a></div></div><!-- Right Column: Create Form--><div class="col-12 col-lg-6 col-md-12"><div class="border-0 shadow-lg overflow-hidden bg-white"><div class="p-4 p-md-5 text-lg-start text-center"><h5 class="mb-2 text-muted">Unblock your day</h5><form id="createChannel" action="https://app.beeceptor.com"><div class="input-group input-group-lg responsive-input-group"><input class="form-control border-end-0" type="text" name="channel" id="channel" placeholder="payments-api" required pattern="[a-zA-Z0-9][a-zA-Z0-9\-]{3,40}[a-zA-Z0-9]" minlength="5" maxlength="40" oninput="this.value = this.value.replace(/[^a-zA-Z0-9]/g, '-').replace(/-+/g, '-')"><script>if (window.innerWidth >= 992) { // Bootstrap lg breakpoint. Don't focus on mobile, else the screen scrolls.
+  document.getElementById('channel').focus();
+}</script><span class="input-group-text bg-white border-start-0 text-muted" style="font-size: 1rem; ">.free.beeceptor.com</span></div><p class="text-muted mb-3 mt-1 small">Launch a mock server on a unique subdomain and simulate API behavior instantly.</p><button class="btn btn-brand px-4 btn-lg" type="submit"><i class="bi bi-magic me-2"></i>Create Mock Server</button><iframe class="w-100 mt-3 d-none d-sm-block" src="https://app.beeceptor.com/recent-endpoints" frameborder="0" style="height:50px;" scrolling="no" title="Recent endpoints list"></iframe></form></div></div></div></div></div></section><section><div class="container p-2 p-lg-5"><div class="logo-grid"><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/snapsheet.png" alt="SnapsheetClaims.com"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/shopify.svg" alt="shopify"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/intercom.png" alt="Intercom" style="max-height:2rem"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/oracle.svg" alt="Oracle" style="max-height:0.98rem"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/gupshup.svg" alt="Gupshup"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/amazonpay.svg" alt="Amazon Pay"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/mastercard.svg" alt="mastercard" style="max-height:3rem"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/salesforce.png" alt="salesforce" style="max-height:3rem"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/marqeta.svg" alt="Marqeta"></div><div class="logo-cell"><img src="https://cdn.beeceptor.com/assets/external-references/logo/auth0.svg" alt="auth0"></div></div></div></section><section class="bg-gray-200 glow-section"><!-- Valley Separator--><div class="valley-separator"><!-- Left Slope--><svg class="d-none d-md-block" viewBox="0 0 85 64" preserveAspectRatio="none"><rect x="0" y="0" width="85" height="1" transform="translate(0, -1)"></rect><path d="M50 45C57.3095 56.6952 71.2084 63.9997 85 64V0H0C13.7915 0 26.6905 7.30481 34 19L50 45Z"></path></svg><!-- Center Content--><div class="valley-content flex-grow-1 flex-md-grow-0"><div class="d-flex gap-2 flex-wrap justify-content-center"><button class="btn-valley" id="btn-agentic" type="button" data-video="https://cdn.beeceptor.com/assets/videos/beeceptor-quick-agentic-demo.webm"><i class="bi bi-robot me-1"></i>Build with AI Agents</button><button class="btn-valley" id="btn-no-code" type="button" data-video="https://cdn.beeceptor.com/assets/videos/beeceptor-quick-ui-demo.mp4"><i class="bi bi-sliders me-1"></i>Build with No-Code</button></div></div><!-- Right Slope (Mirrored)--><svg class="d-none d-md-block" viewBox="0 0 85 64" preserveAspectRatio="none" style="transform: scaleX(-1);"><rect x="0" y="0" width="85" height="1" transform="translate(0, -1)"></rect><path d="M50 45C57.3095 56.6952 71.2084 63.9997 85 64V0H0C13.7915 0 26.6905 7.30481 34 19L50 45Z"></path></svg></div><!-- Product Demo Section--><div class="container"><div class="row justify-content-center"><div class="col-12 col-lg-10 my-5"><div class="browser-frame-outer border border-5 rounded-5 border-secondary-subtle"><div class="browser-frame-inner border border-5 rounded-5 border-secondary-subtle"><div class="ratio ratio-16x9"><video class="rounded-4" id="demo-video" muted playsinline preload="none" data-src="https://cdn.beeceptor.com/assets/videos/beeceptor-quick-agentic-demo.webm" style="width: 100%; height: 100%; object-fit: cover;"></video></div></div></div></div></div></div></section><!-- Enterprise-grade Section--><section class="py-5"><div class="container"><div class="text-center mb-5 mt-4"><!--.badge.bg-warning.bg-opacity-10.text-primary.mb-3.px-3.py-2.rounded-pill.fs-5 --><h2 class="mb-3 text-balance">Build Stateful, High-Performance Mock Servers in Minutes</h2><p class="text-muted mx-auto" style="max-width: 600px">Create reliable, production-like APIs for development, testing, CI pipelines, and customer demos. Beeceptor turns your API specifications and ideas into stateful mock servers. Upload OpenAPI/ Swagger GraphQL, gRPC, or SOAP definitions to get fully functional mock servers with realistic test data.</p><div class="bg-white p-4 rounded-4 text-center"><img class="img-fluid" src="https://cdn.beeceptor.com/assets/images/protocols-list.png" alt="Rest, SOAP, GraphQL, Binary, JSON, XML" title="Beeceptor supports REST, SOAP, GraphQL, Binary, JSON, XML and many more" style="max-height: 200px;"></div></div><div class="row row-cols-1 row-cols-md-3 g-4"><!-- Feature 1--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-code-slash fs-4"></i></div><h3 class="card-title mb-0">No Code Mocking</h3></div><p class="card-text">Set up mock servers instantly without writing code. Create behavior using matching rules and customize responses through an intuitive UI.</p></div></div><!-- Feature 2--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-eye fs-4"></i></div><h3 class="card-title mb-0">Request Inspection</h3></div><p class="card-text">View request payloads, headers, and details in real-time. Debug webhooks and callbacks effortlessly.</p></div></div><!-- Feature 3--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-globe fs-4"></i></div><h3 class="card-title mb-0">Contextual Dynamic Responses</h3></div><p class="card-text">Generate dynamic test data by reusing request payloads, headers, and query parameters. Build context-aware responses that adapt to inputs and accurately simulate real API behavior.</p></div></div><!-- Feature 4--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-filetype-json fs-4"></i></div><h3 class="card-title mb-0">OpenAPI Import</h3></div><p class="card-text">Upload your OpenAPI (Swagger) spec and instantly get a fully populated mock server with AI-generated data.</p></div></div><!-- Feature 5--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-arrow-repeat fs-4"></i></div><h3 class="card-title mb-0">Proxy & Record</h3></div><p class="card-text">Proxy requests to a live backend and record them. Switch to mock mode when the backend is down.</p></div></div><!-- Feature 6--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-stopwatch fs-4"></i></div><h3 class="card-title mb-0">Delays & Timeouts</h3></div><p class="card-text">Simulate network latency, timeouts, and errors to test how your app handles failure scenarios.</p></div></div><!-- Feature 7--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><img src="https://cdn.beeceptor.com/assets/images/icons/crud.svg" width="24" height="24" style="filter: brightness(0)" alt="CRUD API icon"><!--i.bi.bi-stopwatch.fs-4--></div><h3 class="card-title mb-0">CRUD Routes</h3></div><p class="card-text">Create GET, POST, PUT, PATCH, and DELETE routes for any JSON Rest API. Backed by a schema-less database, giving you the flexibility to store and retrieve objects.</p></div></div><!-- Feature 8--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-database-check fs-4"></i></div><h3 class="card-title mb-0">Stateful Mock Servers</h3></div><p class="card-text">Simulate network latency, timeouts, and errors to test how your app handles failure scenarios.</p></div></div><!-- Feature 9--><div class="col"><div class="card h-100 p-4 border-0 shadow-sm"><div class="d-flex align-items-center mb-3"><div class="icon-square bg-light text-dark rounded-3 p-2 me-3"><i class="bi bi-display fs-4"></i></div><h3 class="card-title mb-0">Local Tunnel</h3></div><p class="card-text">Route third-party event payloads directly to your development machine on specific port. Skip the deployment cycles, and iterate faster.</p></div></div></div></div></section><section class="bg-light border-y"><div class="container border-x p-1"><div class="position-relative p-4"><div class="text-gray-400 position-absolute top-0 start-0 w-100 h-100" style="z-index: 0;"><svg class="w-100 h-100"><defs><pattern id="dots_in_grid" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="currentColor"></circle></pattern></defs><rect fill="url(#dots_in_grid)" width="100%" height="100%"></rect></svg></div><div class="row align-items-center position-relative" style="z-index: 1;"><div class="col-12 col-md-9 mb-4 mb-md-0"><div class="fs-3">&ldquo;A game changer to API based companies&rdquo;</div><div class="fs-5">The ease of using the tool makes the experience incredible! As the person responsible for my company's API product, I can say that beeceptor is a game changer.</div></div><div class="col-12 col-md-3 text-md-end text-center"><!--img.my-2(alt='Scicomm Media logo' class='sm:object-right' src='https://assets.dub.co/companies/hubermanlab.svg' )--><div class="fw-bold">Head Of DEV-X</div><div>Banking, United States</div><a class="btn btn-outline-secondary btn-xs p-2" href="https://www.gartner.com/reviews/market/application-development/vendor/beeceptor/product/beeceptor-275460680/reviews" target="_blank" rel="external noopener noreferrer">Read Review<i class="bi bi-box-arrow-up-right ms-1"></i></a><!--img.my-2.rounded-pill.border(alt='Ian Mackey' loading='lazy' width='40' height='40' decoding='async' data-nimg='1' src='https://assets.dub.co/testimonials/people/ian-mackey.jpeg' style='color: transparent;')--></div></div><!-- Testimonials / Social Proof (Style of Dub.co - Wall of love or simple cards)--><!--section.bg-light.border-y--><!--  .container.border-x.py-5--><div class="mt-5 position-relative" style="z-index: 1;"><div class="text-center"><h2>Loved by Everyone</h2><p class="text-muted">See what others are saying about Beeceptor.</p></div><div class="row g-4"><div class="col-md-4"><div class="card p-4 border-0 shadow-sm"><div class="mb-3 text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div><p class="fst-italic">"Fastest Mock REST API I have ever done! Beeceptor made that 2min task!"</p><div class="d-flex align-items-center mt-3"><img class="rounded-circle me-3" src="https://cdn.beeceptor.com/assets/images/testimonials/juergen_j.jpg" width="40" height="40" alt="Juergen"><div><h4 class="mb-0 small fw-bold">Juergen S.</h4><small class="text-muted">Software Architect</small></div></div></div></div><div class="col-md-4"><div class="card p-4 border-0 shadow-sm"><div class="mb-3 text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div><p class="fst-italic">"Having Beeceptor as a man-in-the-middle ... is a fantastic tool for working with semi-live data."</p><div class="d-flex align-items-center mt-3"><img class="rounded-circle me-3" src="https://cdn.beeceptor.com/assets/images/testimonials/tim_s_web_developer.webp" width="40" height="40" alt="Tim"><div><h6 class="mb-0 small fw-bold">Tim S.</h6><small class="text-muted">Web Developer</small></div></div></div></div><div class="col-md-4"><div class="card p-4 border-0 shadow-sm"><div class="mb-3 text-warning"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div><p class="fst-italic">"Ease of use is the main thing about it. It's also quite flexible too."</p><div class="d-flex align-items-center mt-3"><img class="rounded-circle me-3" src="https://cdn.beeceptor.com/assets/images/testimonials/andre_p.jpg" width="40" height="40" alt="Andre"><div><h6 class="mb-0 small fw-bold">André P.</h6><small class="text-muted">Software Architect</small></div></div></div></div></div></div></div></div></section><!-- Global Presence - Globe Section--><section class="bg-white overflow-hidden"><div class="container border-x pt-5"><div class="row align-items-center text-center" style="max-height:650px;overflow:hidden"><div class="col-12 fs-2 mb-2 mt-4">Tested at Scale, Every Day</div><div class="col-12 col-xl-6 offset-xl-3 col-lg-8 offset-lg-2"><div class="row"><div class="col-4 fs-md-3"><strong>10M+ requests/day</strong><div class="text-muted ps-1"> across global teams</div></div><div class="col-4"><strong>1,000+ mock servers </strong><div class="text-muted ps-1">launched daily</div></div><div class="col-4"><strong>99.9% uptime</strong><div class="text-muted ps-1">proven over time</div></div></div></div><div class="col-12 d-flex justify-content-center align-items-center position-relative" style="margin-top:-80px; contain: layout paint;"><canvas id="cobe" style="width: 900px; height: 900px; mask-image: linear-gradient(to bottom, black 80%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%); will-change: transform; pointer-events: none;" width="1800" height="1800" alt="Globe showing live API requests" title="Live mock requests around the world received by Beeceptor"></canvas></div></div></div></section><!-- Video Modal--><div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true"><div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content bg-transparent border-0"><div class="modal-body p-0 position-relative"><div class="ratio ratio-16x9 shadow-lg"><iframe id="videoIframe" src="" allowfullscreen allow="autoplay" title="Beeceptor demo video"></iframe></div><button class="btn-close btn-close-white position-absolute top-0 end-0 m-1" type="button" data-bs-dismiss="modal" aria-label="Close" style="right: -30px; top: -30px;"></button></div></div></div></div><script>document.addEventListener('DOMContentLoaded', () => {
+  const canvas = document.getElementById("cobe");
+  if (!canvas) return;
+
+  let phi = 0;
+  let count = 0;
+  let isVisible = false;
+  let globe = null;
+  
+  const allCities = [
+    { location: [25.2048, 55.2708], size: 0.05 }, // Dubai
+    { location: [50.8503, 4.3517], size: 0.05 }, // Brussels
+    { location: [36.8065, 10.1815], size: 0.05 }, // Tunis
+    { location: [19.0760, 72.8777], size: 0.05 }, // Mumbai
+    { location: [12.9716, 77.5946], size: 0.05 }, // Bangalore
+    { location: [39.7392, -104.9903], size: 0.05 }, // Denver
+    { location: [60.1699, 24.9384], size: 0.05 }, // Helsinki
+    { location: [37.9838, 23.7275], size: 0.05 }, // Athens
+    { location: [23.5859, 58.4059], size: 0.05 }, // Muscat
+    { location: [17.3850, 78.4867], size: 0.05 }, // Hyderabad
+    { location: [29.3759, 47.9774], size: 0.05 }, // Kuwait City
+    { location: [41.9028, 12.4964], size: 0.05 }, // Rome
+    { location: [55.7558, 37.6173], size: 0.05 }, // Moscow
+    { location: [1.3521, 103.8198], size: 0.05 }, // Singapore
+    { location: [28.6139, 77.2090], size: 0.05 }, // Delhi
+    { location: [40.4168, -3.7038], size: 0.05 }, // Madrid
+    { location: [-12.0464, -77.0428], size: 0.05 }, // Lima
+    { location: [-34.9285, 138.6007], size: 0.05 }, // Adelaide
+    { location: [25.7617, -80.1918], size: 0.05 }, // Miami
+    { location: [14.6928, -17.4467], size: 0.05 }, // Dakar
+    { location: [14.5995, 120.9842], size: 0.05 }, // Manila
+    { location: [5.6037, -0.1870], size: 0.05 }, // Accra
+    { location: [-27.4698, 153.0251], size: 0.05 }, // Brisbane
+    { location: [21.1702, 72.8311], size: 0.05 }, // Surat
+    { location: [11.5564, 104.9282], size: 0.05 }, // Phnom Penh
+    { location: [32.0853, 34.7818], size: 0.05 }, // Tel Aviv
+    { location: [10.4806, -66.9036], size: 0.05 }, // Caracas
+    { location: [24.7136, 46.6753], size: 0.05 }, // Riyadh
+    { location: [-33.4489, -70.6693], size: 0.05 }, // Santiago
+    { location: [52.2297, 21.0122], size: 0.05 }, // Warsaw
+    { location: [-12.4634, 130.8456], size: 0.05 }, // Darwin
+    { location: [25.0330, 121.5654], size: 0.05 }, // Taipei
+    { location: [3.1390, 101.6869], size: 0.05 }, // Kuala Lumpur
+    { location: [26.2285, 50.5860], size: 0.05 }, // Manama
+    { location: [32.7767, -96.7970], size: 0.05 }, // Dallas
+    { location: [33.8938, 35.5018], size: 0.05 }, // Beirut
+    { location: [21.0285, 105.8542], size: 0.05 }, // Hanoi
+    { location: [59.3293, 18.0686], size: 0.05 }, // Stockholm
+    { location: [-34.6037, -58.3816], size: 0.05 }, // Buenos Aires
+    { location: [13.0827, 80.2707], size: 0.05 }, // Chennai
+    { location: [55.6761, 12.5683], size: 0.05 }, // Copenhagen
+    { location: [48.8566, 2.3522], size: 0.05 }, // Paris
+    { location: [-1.2921, 36.8219], size: 0.05 }, // Nairobi
+    { location: [-37.8136, 144.9631], size: 0.05 }, // Melbourne
+    { location: [52.5200, 13.4050], size: 0.05 }, // Berlin
+    { location: [22.5726, 88.3639], size: 0.05 }, // Kolkata
+    { location: [-22.9068, -43.1729], size: 0.05 }, // Rio de Janeiro
+    { location: [-4.4419, 15.2663], size: 0.05 }, // Kinshasa
+    { location: [-33.8688, 151.2093], size: 0.05 }, // Sydney
+    { location: [44.4268, 26.1025], size: 0.05 }, // Bucharest
+    { location: [51.5074, -0.1278], size: 0.05 }, // London
+    { location: [23.8103, 90.4125], size: 0.05 }, // Dhaka
+    { location: [35.6762, 139.6503], size: 0.05 }, // Tokyo
+    { location: [24.8607, 67.0011], size: 0.05 }, // Karachi
+    { location: [38.7223, -9.1393], size: 0.05 }, // Lisbon
+    { location: [37.3382, -121.8863], size: 0.05 }, // San Jose
+    { location: [17.9757, 102.6331], size: 0.05 }, // Vientiane
+    { location: [38.9072, -77.0369], size: 0.05 }, // Washington D.C.
+    { location: [59.9139, 10.7522], size: 0.05 }, // Oslo
+    { location: [39.9042, 116.4074], size: 0.05 }, // Beijing
+    { location: [31.9454, 35.9284], size: 0.05 }, // Amman
+    { location: [-23.5505, -46.6333], size: 0.05 }, // Sao Paulo
+    { location: [29.7604, -95.3698], size: 0.05 }, // Houston
+    { location: [34.0522, -118.2437], size: 0.05 }, // Los Angeles
+    { location: [33.7490, -84.3880], size: 0.05 }, // Atlanta
+    { location: [-26.2041, 28.0473], size: 0.05 }, // Johannesburg
+    { location: [33.4484, -112.0740], size: 0.05 }, // Phoenix
+    { location: [53.3498, -6.2603], size: 0.05 }, // Dublin
+    { location: [-35.2809, 149.1300], size: 0.05 }, // Canberra
+    { location: [6.5244, 3.3792], size: 0.05 }, // Lagos
+    { location: [4.7110, -74.0721], size: 0.05 }, // Bogota
+    { location: [19.4326, -99.1332], size: 0.05 }, // Mexico City
+    { location: [-42.8821, 147.3272], size: 0.05 }, // Hobart
+    { location: [41.8781, -87.6298], size: 0.05 }, // Chicago
+    { location: [-34.9011, -56.1645], size: 0.05 }, // Montevideo
+    { location: [49.2827, -123.1207], size: 0.05 }, // Vancouver
+    { location: [47.3769, 8.5417], size: 0.05 }, // Zurich
+    { location: [34.6937, 135.5023], size: 0.05 }, // Osaka
+    { location: [16.8409, 96.1735], size: 0.05 }, // Yangon
+    { location: [52.3676, 4.9041], size: 0.05 }, // Amsterdam
+    { location: [-16.4897, -68.1193], size: 0.05 }, // La Paz
+    { location: [-6.2088, 106.8456], size: 0.05 }, // Jakarta
+    { location: [47.4979, 19.0402], size: 0.05 }, // Budapest
+    { location: [10.8231, 106.6297], size: 0.05 }, // Ho Chi Minh City
+    { location: [-31.9505, 115.8605], size: 0.05 }, // Perth
+    { location: [-0.1807, -78.4678], size: 0.05 }, // Quito
+    { location: [48.2082, 16.3738], size: 0.05 }, // Vienna
+    { location: [41.0082, 28.9784], size: 0.05 }, // Istanbul
+    { location: [50.0755, 14.4378], size: 0.05 }, // Prague
+    { location: [25.2854, 51.5310], size: 0.05 }, // Doha
+    { location: [23.0225, 72.5714], size: 0.05 }, // Ahmedabad
+    { location: [29.4241, -98.4936], size: 0.05 }, // San Antonio
+    { location: [31.2304, 121.4737], size: 0.05 }, // Shanghai
+    { location: [30.5728, 104.0668], size: 0.05 }, // Chengdu
+    { location: [43.0618, 141.3545], size: 0.05 }, // Sapporo
+    { location: [45.5017, -73.5673], size: 0.05 }, // Montreal
+    { location: [43.6532, -79.3832], size: 0.05 }, // Toronto
+    { location: [-36.8485, 174.7633], size: 0.05 }, // Auckland
+    { location: [22.3193, 114.1694], size: 0.05 }, // Hong Kong
+    { location: [18.5204, 73.8567], size: 0.05 }, // Pune
+    { location: [32.7157, -117.1611], size: 0.05 }, // San Diego
+    { location: [42.3601, -71.0589], size: 0.05 }, // Boston
+    { location: [-43.5321, 172.6362], size: 0.05 }, // Christchurch
+    { location: [33.5731, -7.5898], size: 0.05 }, // Casablanca
+    { location: [9.0820, 38.7468], size: 0.05 }, // Addis Ababa
+    { location: [37.5665, 126.9780], size: 0.05 }, // Seoul
+    { location: [30.0444, 31.2357], size: 0.05 }, // Cairo
+    { location: [13.7563, 100.5018], size: 0.05 }, // Bangkok
+    { location: [40.7128, -74.0060], size: 0.05 }, // New York
+    { location: [26.9124, 75.7873], size: 0.05 }, // Jaipur
+    { location: [39.9526, -75.1652], size: 0.05 }, // Philadelphia
+    { location: [47.6062, -122.3321], size: 0.05 }, // Seattle
+    // Middle Africa
+    { location: [-4.4419, 15.2663], size: 0.05 }, // Kinshasa
+    { location: [-8.8390, 13.2894], size: 0.05 }, // Luanda
+    { location: [-6.7924, 39.2083], size: 0.05 }, // Dar es Salaam
+    { location: [15.5007, 32.5599], size: 0.05 }, // Khartoum
+    // Southeast Asia
+    { location: [-7.2575, 112.7521], size: 0.05 }, // Surabaya
+    { location: [-6.9175, 107.6191], size: 0.05 }, // Bandung
+    { location: [3.5952, 98.6722], size: 0.05 }, // Medan
+    { location: [10.3157, 123.8854], size: 0.05 }, // Cebu City
+    { location: [7.1907, 125.4553], size: 0.05 }, // Davao City
+    // UK
+    { location: [53.4808, -2.2426], size: 0.05 }, // Manchester
+    { location: [52.4862, -1.8904], size: 0.05 }, // Birmingham
+    { location: [55.9533, -3.1883], size: 0.05 }, // Edinburgh
+    { location: [55.8642, -4.2518], size: 0.05 }, // Glasgow
+    // West Asia
+    { location: [33.3152, 44.3661], size: 0.05 }, // Baghdad
+    { location: [35.6892, 51.3890], size: 0.05 }, // Tehran
+    { location: [40.4093, 49.8671], size: 0.05 }, // Baku
+    { location: [21.2854, 39.2376], size: 0.05 }, // Jeddah
+    { location: [39.9334, 32.8597], size: 0.05 }, // Ankara
+    // New Zealand
+    { location: [-41.2865, 174.7762], size: 0.05 }, // Wellington
+    // Europe (Other)
+    { location: [48.1351, 11.5820], size: 0.05 }, // Munich
+    { location: [45.4642, 9.1900], size: 0.05 }, // Milan
+  ];
+
+  function getActiveMarkers() {
+    return [...allCities]
+      .sort(() => Math.random() - 0.5)
+      .slice(0, Math.floor(allCities.length * 0.4));
+  }
+
+  const initGlobe = () => {
+    if (globe || !window.createGlobe) return;
+    globe = window.createGlobe(canvas, {
+      devicePixelRatio: Math.min(window.devicePixelRatio, 2),
+      width: 1800,
+      height: 1800,
+      phi: 0,
+      theta: 0.2,
+      dark: 0,
+      diffuse: 1.2,
+      mapSamples: 32000,
+      mapBrightness: 4,
+      baseColor: [1, 1, 1],
+      markerColor: [224/255, 23/255, 164/255],
+      glowColor: [1.1, 1.1, 1.1],
+      markers: getActiveMarkers(),
+      onRender: (state) => {
+        if (!isVisible) return;
+        state.phi = phi;
+        phi += 0.003;
+        count++;
+        if (count % 25 === 0) {
+          state.markers = getActiveMarkers();
+        }
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    isVisible = entries[0].isIntersecting;
+    if (isVisible && !globe) {
+      initGlobe();
+    }
+  }, { threshold: 0.2 });
+  observer.observe(canvas);
+});
+</script><div class="container"></div></main><div class="cookie-notice fixed-bottom p-3 border-top bg-light shadow-sm" style="display:none;"><div class="container d-flex flex-column flex-md-row align-items-md-center gap-2"><p class="mb-0 small flex-grow-1">🍪 We use cookies to offer you a better product experience and analyze site traffic. If you continue to use this site, you consent to our use of cookies. Refer&nbsp;<a href="https://beeceptor.com/pages/privacy/" target="_blank">privacy policy</a>.</p><div class="d-flex gap-2 justify-content-center justify-content-md-end"><button class="accept-cookies btn btn-brand btn-sm" type="button" onClick="document.cookie = 'gdprConsent=accepted; domain=.beeceptor.com; path=/; expires=Fri, 14 Jun 2030 07:00:00 GMT;SameSite=None; Secure'; document.querySelector('.cookie-notice').style.display = 'none'">Accept</button><button class="deny-cookies btn btn-outline-secondary btn-sm" type="button" onClick="document.cookie = 'gdprConsent=denied; domain=.beeceptor.com; path=/; expires=Fri, 14 Jun 2030 07:00:00 GMT;SameSite=None; Secure'; document.querySelector('.cookie-notice').style.display = 'none'">Deny</button></div></div></div><script>if (document.cookie.indexOf("gdprConsent=accepted") < 0 && document.cookie.indexOf("gdprConsent=denied") < 0) {
+  document.querySelector('.cookie-notice').style.display = 'flex';
+}
+</script><footer class="bg-light py-5"><div class="container"><div class="row gy-4"><!-- Brand Column (with Social Icons)--><div class="col-12 col-lg-4 p-0"><div class="d-flex gap-3"><img class="mb-3" src="https://cdn.beeceptor.com/assets/images/logos/beeceptor-transparent.png" alt="Beeceptor" style="height: 32px; width:32.8px"><p class="text-muted small mb-4">Use mock servers to increase developer productivity and ship software faster.</p></div><!-- Social Icons List--><div class="d-flex gap-3 justify-content-center justify-content-lg-start"><a class="footer-social-icon" href="https://x.com/beeceptor" target="_blank" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a><a class="footer-social-icon" href="https://github.com/beeceptor" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a><a class="footer-social-icon" href="https://www.linkedin.com/company/beeceptor" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a><a class="footer-social-icon" href="https://www.youtube.com/@beeceptor" target="_blank" aria-label="YouTube"><i class="bi bi-youtube"></i></a></div></div><!-- Links Columns (4 Columns)--><div class="col-6 col-lg-2"><h6 class="fw-bold mb-3">Tutorials</h6><ul class="list-unstyled d-flex flex-column gap-1 gap-lg-2"><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/openapi-mock-server/">OpenAPI Mock Server</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/service-virtualization/">Service Virtualization</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/docs/template-stateful-mocks/">Stateful Mocks</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/docs/api-service-mocking-for-performance-tests/">Performance Testing</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/docs/rate-limits-for-apis/">Test API rate limits</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/docs/webhook-feature-design/">Webhooks</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/docs/mutual-tls-mtls/">mTLS Mocks</a></li></ul></div><div class="col-6 col-lg-2"><h6 class="fw-bold mb-3">Resources</h6><ul class="list-unstyled d-flex flex-column gap-1 gap-lg-2"><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/docs/beeceptor-features/">Documentation</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/faq/">FAQ</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/resources/test-data-generator/">Data Generator</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/resources/http-echo/">HTTP Echo</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/forward-proxy/">Forward Proxy</a></li></ul></div><div class="col-6 col-lg-2"><h6 class="fw-bold mb-3">Compare</h6><ul class="list-unstyled d-flex flex-column gap-1 gap-lg-2"><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/compare/beeceptor-vs-devtest/">vs Broadcom DevTest</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/compare/beeceptor-vs-wiremock/">vs WireMock</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/compare/beeceptor-vs-mockbin/">vs Mockbin</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/compare/beeceptor-vs-apidog/">vs Apidog</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/compare/beeceptor-vs-postman/">vs Postman</a></li></ul></div><div class="col-6 col-lg-2"><h6 class="fw-bold mb-3">Company</h6><ul class="list-unstyled d-flex flex-column gap-1 gap-lg-2"><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/about-us/"><i class="bi bi-buildings me-1"></i>About Us</a></li><li><a class="text-muted text-decoration-none small" href="https://app.beeceptor.com/contact"><i class="bi bi-envelope me-1"></i>Contact</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/changelog/"><i class="bi bi-node-plus me-1"></i>Change Log</a></li><li><a class="text-muted text-decoration-none small" href="https://beeceptor.com/security-and-compliance/"><i class="bi bi-shield-check me-1"></i>Trust Center</a></li></ul></div></div><div class="row mt-3"><div class="col-12 d-flex justify-content-between align-items-center flex-column flex-md-row"><p class="text-muted small mb-0">&copy; 2026 Beeceptor. All rights reserved.</p><p class="mb-0"><a class="bg-white shadow-sm text-decoration-none rounded-pill border px-3 py-1" href="https://status.beeceptor.com/" target="_blank"><span class="d-inline-block rounded-circle bg-success me-2" style="width: 8px; height: 8px;"></span>All systems operational</a></p><p class="text-muted small mb-0"> <a class="text-muted text-decoration-none" href="https://beeceptor.com/pages/terms-of-service/">Terms</a><span class="mx-2">&middot;</span><a class="text-muted text-decoration-none" href="https://beeceptor.com/pages/privacy/">Privacy</a></p></div></div></div></footer><script src="https://cdn.beeceptor.com/assets/js/popper.min.js"></script><script src="https://cdn.beeceptor.com/assets/js/vendor.js?v=f385191"></script><script>if (window.location.hostname === 'beeceptor.com' || window.location.hostname === 'app.beeceptor.com') {
+  window.$crisp=[];window.CRISP_WEBSITE_ID="99053a41-4bc0-4de7-854c-a32802395bed";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
+}</script><script src="https://cdn.beeceptor.com/assets/js/user.min.js"></script><script>const liDropdowns = document.querySelectorAll(".dropdown");
+liDropdowns.forEach(function(liD) {
+  if (liD) {
+    liD.addEventListener("click", function(e) {
+      liD.classList.toggle("open");
+      e.stopPropagation();
+    });
+    document.body.addEventListener("click", function() {
+      liD.classList.remove("open");
+    });
+  } 
+});
+const navToggle = document.querySelector(".navbar-toggle");
+const navToggleC = document.querySelector(".navbar-collapse");
+if (navToggle && navToggleC) {
+  navToggleC.style.overflow = "scroll";
+  navToggle.addEventListener("click", function(e) {
+    navToggleC.classList.toggle("collapse");
+  });
+}
+
+const videoModal = document.getElementById('videoModal');
+if (videoModal) {
+  const videoIframe = document.getElementById('videoIframe');
+  const videoSrc = 'https://www.youtube.com/embed/8k7ECZa3mRI?utm_source=beeceptor.com&autoplay=1&rel=0&enablejsapi=1';
+  
+  videoModal.addEventListener('show.bs.modal', () => {
+    videoIframe.src = videoSrc;
+  });
+
+  videoModal.addEventListener('hidden.bs.modal', () => {
+    videoIframe.src = '';
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const demoVideo = document.getElementById('demo-video');
+  if (demoVideo) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          if (!demoVideo.src) {
+            demoVideo.src = demoVideo.dataset.src;
+          }
+          demoVideo.play().catch(e => console.error("Auto-play blocked:", e));
+        } else {
+          demoVideo.pause();
+        }
+      });
+    }, { threshold: 0.2 });
+    observer.observe(demoVideo);
+  }
+
+  // Valley toggle buttons – switch demo video
+  const valleyBtns = document.querySelectorAll('.valley-content .btn-valley');
+  const activeStyle = { bg: '#d40d9a', border: '#d40d9a', color: '#fff' };
+  const defaultStyle = { bg: '#fff', border: '#e5e5e5', color: '#333' };
+
+  function setActive(btn) {
+    valleyBtns.forEach(b => {
+      Object.assign(b.style, { backgroundColor: defaultStyle.bg, borderColor: defaultStyle.border, color: defaultStyle.color });
+    });
+    Object.assign(btn.style, { backgroundColor: activeStyle.bg, borderColor: activeStyle.border, color: activeStyle.color });
+  }
+
+  function switchToBtn(btn) {
+    setActive(btn);
+    const newSrc = btn.dataset.video;
+    if (demoVideo && newSrc) {
+      demoVideo.pause();
+      demoVideo.src = newSrc;
+      demoVideo.dataset.src = newSrc;
+      demoVideo.load();
+      demoVideo.play().catch(e => console.error("Auto-play blocked:", e));
+    }
+  }
+
+  // Set first button active on load
+  if (valleyBtns.length) setActive(valleyBtns[0]);
+
+  valleyBtns.forEach(btn => {
+    btn.addEventListener('click', function() { switchToBtn(this); });
+  });
+
+  // Auto-switch when video ends
+  if (demoVideo) {
+    demoVideo.addEventListener('ended', function() {
+      const currentIdx = [...valleyBtns].findIndex(b => b.style.backgroundColor === 'rgb(212, 13, 154)');
+      const nextIdx = (currentIdx + 1) % valleyBtns.length;
+      switchToBtn(valleyBtns[nextIdx]);
+    });
+  }
+});</script></body></html>
